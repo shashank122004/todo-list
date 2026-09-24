@@ -34,8 +34,10 @@ export default function App() {
   return (
     <div className="app">
       <div className="masthead">
-        <h1>Shashank's Kept</h1>
-        <h5>In the midst of difficulty, there is opportunity.</h5>
+        <div className="masthead-copy">
+          <h1>Shashank's Kept</h1>
+          <h5>In the midst of difficulty, there is opportunity.</h5>
+        </div>
         <span className="count">{notes.filter((n) => !n.done).length} open</span>
       </div>
 
