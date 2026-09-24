@@ -28,3 +28,5 @@ special characters in the username or password.
 3. GitHub Actions: lint/build on PR, build+push images to Docker Hub/ECR on merge to main.
 4. Deploy: EC2 with docker-compose, or ECS/EKS for orchestration practice.
 5. Add health checks (`/api/health` already included) for load balancer/K8s probes.
+
+
