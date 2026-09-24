@@ -34,7 +34,8 @@ export default function App() {
   return (
     <div className="app">
       <div className="masthead">
-        <h1>Kept</h1>
+        <h1>Shashank's Kept</h1>
+        <h5>In the midst of difficulty, there is opportunity.</h5>
         <span className="count">{notes.filter((n) => !n.done).length} open</span>
       </div>
 
